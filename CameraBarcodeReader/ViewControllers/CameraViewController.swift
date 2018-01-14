@@ -19,7 +19,7 @@ class CameraViewController: UIViewController {
     @IBOutlet weak var backButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //_ = cameraManager.addPreviewLayerToView(self.cameraView)
+        _ = cameraManager.addPreviewLayerToView(self.cameraView)
     }
     
     @IBAction func takePicture(_ sender: Any) {

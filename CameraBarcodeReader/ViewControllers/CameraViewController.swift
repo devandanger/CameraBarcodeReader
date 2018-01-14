@@ -22,8 +22,9 @@ class CameraViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         super.viewDidLoad()
         let metadataOutput = AVCaptureMetadataOutput()
         metadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
-        cameraManager.captureSession?.addOutput(metadataOutput)
+        metadataOutput.metadataObjectTypes = metadataOutput.availableMetadataObjectTypes
         _ = cameraManager.addPreviewLayerToView(self.cameraView)
+        cameraManager.captureSession?.addOutput(metadataOutput)
     }
     
     @IBAction func takePicture(_ sender: Any) {

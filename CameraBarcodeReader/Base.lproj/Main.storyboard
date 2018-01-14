@@ -31,7 +31,7 @@
                                 </constraints>
                                 <state key="normal" title="Start Camera"/>
                                 <connections>
-                                    <segue destination="dp0-a5-KbP" kind="show" id="Jd8-9y-9Na"/>
+                                    <segue destination="dp0-a5-KbP" kind="push" id="Jd8-9y-9Na"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,40 +57,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAl-BN-VeD">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys9-o1-9QS">
-                                        <rect key="frame" x="152" y="569" width="70" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="EEz-GP-uar"/>
-                                            <constraint firstAttribute="height" constant="70" id="lph-RH-79T"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="40"/>
-                                        <state key="normal" title=""/>
-                                        <connections>
-                                            <action selector="takePicture:" destination="dp0-a5-KbP" eventType="touchUpInside" id="zlT-fK-isk"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7c-qZ-Bxh">
-                                        <rect key="frame" x="333" y="8" width="30" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="Ijk-Sa-Cd4"/>
-                                            <constraint firstAttribute="height" constant="30" id="ePv-j3-AeC"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="30"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="T7c-qZ-Bxh" firstAttribute="top" secondItem="vAl-BN-VeD" secondAttribute="top" constant="8" id="NPh-dE-d4G"/>
-                                    <constraint firstItem="ys9-o1-9QS" firstAttribute="centerX" secondItem="vAl-BN-VeD" secondAttribute="centerX" id="aJB-jJ-qWD"/>
-                                    <constraint firstAttribute="trailing" secondItem="T7c-qZ-Bxh" secondAttribute="trailing" constant="12" id="i1f-tJ-6tl"/>
-                                    <constraint firstAttribute="bottom" secondItem="ys9-o1-9QS" secondAttribute="bottom" constant="8" id="rWE-Mt-cVa"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXf-Bw-WgW">
                                 <rect key="frame" x="0.0" y="25" width="50" height="50"/>
                                 <constraints>
@@ -99,24 +65,36 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="30"/>
                                 <state key="normal" title=""/>
+                                <state key="disabled" title=""/>
+                                <state key="highlighted" title=""/>
                                 <connections>
                                     <action selector="close:" destination="dp0-a5-KbP" eventType="touchUpInside" id="Fq2-ri-cvS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iP-sL-QAW">
+                                <rect key="frame" x="329" y="35" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="C5g-XL-Noo"/>
+                                    <constraint firstAttribute="width" constant="30" id="RL6-Ee-MwW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="HOK-fu-lod" firstAttribute="trailing" secondItem="1iP-sL-QAW" secondAttribute="trailing" constant="16" id="1G6-rF-gDo"/>
                             <constraint firstItem="pXf-Bw-WgW" firstAttribute="leading" secondItem="HOK-fu-lod" secondAttribute="leading" id="1mt-jO-2v6"/>
-                            <constraint firstItem="vAl-BN-VeD" firstAttribute="leading" secondItem="HOK-fu-lod" secondAttribute="leading" id="MPK-8X-4cn"/>
-                            <constraint firstItem="HOK-fu-lod" firstAttribute="trailing" secondItem="vAl-BN-VeD" secondAttribute="trailing" id="fKH-jo-WLn"/>
-                            <constraint firstItem="HOK-fu-lod" firstAttribute="bottom" secondItem="vAl-BN-VeD" secondAttribute="bottom" id="kFE-wz-lmS"/>
-                            <constraint firstItem="vAl-BN-VeD" firstAttribute="top" secondItem="HOK-fu-lod" secondAttribute="top" id="m7a-EX-HOy"/>
+                            <constraint firstItem="1iP-sL-QAW" firstAttribute="top" secondItem="HOK-fu-lod" secondAttribute="top" constant="15" id="MIb-F7-W0p"/>
                             <constraint firstItem="pXf-Bw-WgW" firstAttribute="top" secondItem="HOK-fu-lod" secondAttribute="top" constant="5" id="oEg-yQ-ez0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HOK-fu-lod"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KC2-1o-ucu"/>
                     <connections>
-                        <outlet property="cameraView" destination="vAl-BN-VeD" id="4QR-gC-b3Q"/>
+                        <outlet property="backButton" destination="pXf-Bw-WgW" id="8aa-Ta-LvN"/>
+                        <outlet property="barCode" destination="1iP-sL-QAW" id="Ok8-h7-6xa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECk-bt-IUu" userLabel="First Responder" sceneMemberID="firstResponder"/>

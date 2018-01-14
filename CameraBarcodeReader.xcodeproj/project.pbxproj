@@ -356,11 +356,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

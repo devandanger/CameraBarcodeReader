@@ -19,4 +19,11 @@ class CameraViewController: UIViewController {
         _ = cameraManager.addPreviewLayerToView(self.cameraView)
     }
     
+    @IBAction func takePicture(_ sender: Any) {
+        
+    }
+    
+    @IBAction func close(_ sender: Any) {
+        self.navigationController?.dismiss(animated: true, completion: nil)
+    }
 }

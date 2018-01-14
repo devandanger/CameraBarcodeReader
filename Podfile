@@ -6,6 +6,7 @@ target 'CameraBarcodeReader' do
   use_frameworks!
   pod 'SwiftMessages'
   pod 'CameraManager', '~> 4.0'
+  pod 'FontAwesome.swift'
 
   target 'CameraBarcodeReaderTests' do
     inherit! :search_paths

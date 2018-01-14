@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D4825C9445B2CF8ED2A95DD /* Pods_CameraBarcodeReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CE8474257F00822FF78A6E /* Pods_CameraBarcodeReaderUITests.framework */; };
+		202476E2200BA63800F7AEF8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202476E1200BA63800F7AEF8 /* CameraViewController.swift */; };
 		20258D93200BA443003FA670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258D92200BA443003FA670 /* AppDelegate.swift */; };
-		20258D95200BA443003FA670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258D94200BA443003FA670 /* ViewController.swift */; };
+		20258D95200BA443003FA670 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258D94200BA443003FA670 /* MainViewController.swift */; };
 		20258D98200BA443003FA670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20258D96200BA443003FA670 /* Main.storyboard */; };
 		20258D9A200BA443003FA670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20258D99200BA443003FA670 /* Assets.xcassets */; };
 		20258D9D200BA443003FA670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20258D9B200BA443003FA670 /* LaunchScreen.storyboard */; };
@@ -38,9 +39,10 @@
 
 /* Begin PBXFileReference section */
 		1588D1631CB5F96F049505A0 /* Pods-CameraBarcodeReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReaderUITests/Pods-CameraBarcodeReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		202476E1200BA63800F7AEF8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		20258D8F200BA443003FA670 /* CameraBarcodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraBarcodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20258D92200BA443003FA670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20258D94200BA443003FA670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20258D94200BA443003FA670 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		20258D97200BA443003FA670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20258D99200BA443003FA670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20258D9C200BA443003FA670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202476E0200BA61500F7AEF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				202476E1200BA63800F7AEF8 /* CameraViewController.swift */,
+				20258D94200BA443003FA670 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		20258D86200BA443003FA670 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +125,8 @@
 		20258D91200BA443003FA670 /* CameraBarcodeReader */ = {
 			isa = PBXGroup;
 			children = (
+				202476E0200BA61500F7AEF8 /* ViewControllers */,
 				20258D92200BA443003FA670 /* AppDelegate.swift */,
-				20258D94200BA443003FA670 /* ViewController.swift */,
 				20258D96200BA443003FA670 /* Main.storyboard */,
 				20258D99200BA443003FA670 /* Assets.xcassets */,
 				20258D9B200BA443003FA670 /* LaunchScreen.storyboard */,
@@ -460,8 +471,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20258D95200BA443003FA670 /* ViewController.swift in Sources */,
+				20258D95200BA443003FA670 /* MainViewController.swift in Sources */,
 				20258D93200BA443003FA670 /* AppDelegate.swift in Sources */,
+				202476E2200BA63800F7AEF8 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

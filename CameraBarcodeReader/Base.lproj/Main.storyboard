@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gb0-F5-h6e" userLabel="Camera">
-                                <rect key="frame" x="0.0" y="0.0" width="378" height="662"/>
+                                <rect key="frame" x="0.0" y="0.0" width="378" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XzV-Oo-hoc" userLabel="Controls">
@@ -108,7 +108,7 @@
                             <constraint firstItem="HOK-fu-lod" firstAttribute="bottom" secondItem="XzV-Oo-hoc" secondAttribute="bottom" id="ehM-gW-a40"/>
                             <constraint firstItem="Gb0-F5-h6e" firstAttribute="trailing" secondItem="HOK-fu-lod" secondAttribute="trailing" constant="3" id="hBC-PA-7fr"/>
                             <constraint firstItem="HOK-fu-lod" firstAttribute="top" secondItem="XzV-Oo-hoc" secondAttribute="top" id="nD0-1j-cEc"/>
-                            <constraint firstItem="HOK-fu-lod" firstAttribute="bottom" secondItem="Gb0-F5-h6e" secondAttribute="bottom" constant="5" id="xNf-he-mSA"/>
+                            <constraint firstItem="HOK-fu-lod" firstAttribute="bottom" secondItem="Gb0-F5-h6e" secondAttribute="bottom" id="xNf-he-mSA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HOK-fu-lod"/>
                     </view>

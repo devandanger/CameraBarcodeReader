@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4825C9445B2CF8ED2A95DD /* Pods_CameraBarcodeReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CE8474257F00822FF78A6E /* Pods_CameraBarcodeReaderUITests.framework */; };
+		20258D93200BA443003FA670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258D92200BA443003FA670 /* AppDelegate.swift */; };
+		20258D95200BA443003FA670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258D94200BA443003FA670 /* ViewController.swift */; };
+		20258D98200BA443003FA670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20258D96200BA443003FA670 /* Main.storyboard */; };
+		20258D9A200BA443003FA670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20258D99200BA443003FA670 /* Assets.xcassets */; };
+		20258D9D200BA443003FA670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20258D9B200BA443003FA670 /* LaunchScreen.storyboard */; };
+		20258DA8200BA443003FA670 /* CameraBarcodeReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258DA7200BA443003FA670 /* CameraBarcodeReaderTests.swift */; };
+		20258DB3200BA443003FA670 /* CameraBarcodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20258DB2200BA443003FA670 /* CameraBarcodeReaderUITests.swift */; };
+		6286420FC0ACF49440754CFD /* Pods_CameraBarcodeReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3909A7AB90F21BEEA8E2006C /* Pods_CameraBarcodeReaderTests.framework */; };
+		F4E16FBA75D0F6D7590C61EE /* Pods_CameraBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E5AAA1275C00C9A32AB44E /* Pods_CameraBarcodeReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20258DA4200BA443003FA670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20258D87200BA443003FA670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20258D8E200BA443003FA670;
+			remoteInfo = CameraBarcodeReader;
+		};
+		20258DAF200BA443003FA670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20258D87200BA443003FA670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20258D8E200BA443003FA670;
+			remoteInfo = CameraBarcodeReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1588D1631CB5F96F049505A0 /* Pods-CameraBarcodeReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReaderUITests/Pods-CameraBarcodeReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20258D8F200BA443003FA670 /* CameraBarcodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraBarcodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20258D92200BA443003FA670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20258D94200BA443003FA670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20258D97200BA443003FA670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20258D99200BA443003FA670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20258D9C200BA443003FA670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20258D9E200BA443003FA670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20258DA3200BA443003FA670 /* CameraBarcodeReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraBarcodeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20258DA7200BA443003FA670 /* CameraBarcodeReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBarcodeReaderTests.swift; sourceTree = "<group>"; };
+		20258DA9200BA443003FA670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20258DAE200BA443003FA670 /* CameraBarcodeReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraBarcodeReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20258DB2200BA443003FA670 /* CameraBarcodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraBarcodeReaderUITests.swift; sourceTree = "<group>"; };
+		20258DB4200BA443003FA670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3909A7AB90F21BEEA8E2006C /* Pods_CameraBarcodeReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraBarcodeReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E905E29F3388E7472A0018 /* Pods-CameraBarcodeReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReaderTests/Pods-CameraBarcodeReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		51C583DEBDAEBAA56BF928C1 /* Pods-CameraBarcodeReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader.release.xcconfig"; sourceTree = "<group>"; };
+		81898E7E988D1134D0B141B0 /* Pods-CameraBarcodeReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader.debug.xcconfig"; sourceTree = "<group>"; };
+		B73C874C552B934F113D07D7 /* Pods-CameraBarcodeReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReaderUITests/Pods-CameraBarcodeReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F82D6DBA9BDC05958A180D /* Pods-CameraBarcodeReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraBarcodeReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraBarcodeReaderTests/Pods-CameraBarcodeReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9CE8474257F00822FF78A6E /* Pods_CameraBarcodeReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraBarcodeReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E5AAA1275C00C9A32AB44E /* Pods_CameraBarcodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraBarcodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20258D8C200BA443003FA670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E16FBA75D0F6D7590C61EE /* Pods_CameraBarcodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258DA0200BA443003FA670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6286420FC0ACF49440754CFD /* Pods_CameraBarcodeReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258DAB200BA443003FA670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4825C9445B2CF8ED2A95DD /* Pods_CameraBarcodeReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20258D86200BA443003FA670 = {
+			isa = PBXGroup;
+			children = (
+				20258D91200BA443003FA670 /* CameraBarcodeReader */,
+				20258DA6200BA443003FA670 /* CameraBarcodeReaderTests */,
+				20258DB1200BA443003FA670 /* CameraBarcodeReaderUITests */,
+				20258D90200BA443003FA670 /* Products */,
+				5B3F4AB217732B50876BC701 /* Pods */,
+				B45BD4A02CB89BC6ADE23C84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20258D90200BA443003FA670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20258D8F200BA443003FA670 /* CameraBarcodeReader.app */,
+				20258DA3200BA443003FA670 /* CameraBarcodeReaderTests.xctest */,
+				20258DAE200BA443003FA670 /* CameraBarcodeReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20258D91200BA443003FA670 /* CameraBarcodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				20258D92200BA443003FA670 /* AppDelegate.swift */,
+				20258D94200BA443003FA670 /* ViewController.swift */,
+				20258D96200BA443003FA670 /* Main.storyboard */,
+				20258D99200BA443003FA670 /* Assets.xcassets */,
+				20258D9B200BA443003FA670 /* LaunchScreen.storyboard */,
+				20258D9E200BA443003FA670 /* Info.plist */,
+			);
+			path = CameraBarcodeReader;
+			sourceTree = "<group>";
+		};
+		20258DA6200BA443003FA670 /* CameraBarcodeReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				20258DA7200BA443003FA670 /* CameraBarcodeReaderTests.swift */,
+				20258DA9200BA443003FA670 /* Info.plist */,
+			);
+			path = CameraBarcodeReaderTests;
+			sourceTree = "<group>";
+		};
+		20258DB1200BA443003FA670 /* CameraBarcodeReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20258DB2200BA443003FA670 /* CameraBarcodeReaderUITests.swift */,
+				20258DB4200BA443003FA670 /* Info.plist */,
+			);
+			path = CameraBarcodeReaderUITests;
+			sourceTree = "<group>";
+		};
+		5B3F4AB217732B50876BC701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81898E7E988D1134D0B141B0 /* Pods-CameraBarcodeReader.debug.xcconfig */,
+				51C583DEBDAEBAA56BF928C1 /* Pods-CameraBarcodeReader.release.xcconfig */,
+				D6F82D6DBA9BDC05958A180D /* Pods-CameraBarcodeReaderTests.debug.xcconfig */,
+				48E905E29F3388E7472A0018 /* Pods-CameraBarcodeReaderTests.release.xcconfig */,
+				B73C874C552B934F113D07D7 /* Pods-CameraBarcodeReaderUITests.debug.xcconfig */,
+				1588D1631CB5F96F049505A0 /* Pods-CameraBarcodeReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B45BD4A02CB89BC6ADE23C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1E5AAA1275C00C9A32AB44E /* Pods_CameraBarcodeReader.framework */,
+				3909A7AB90F21BEEA8E2006C /* Pods_CameraBarcodeReaderTests.framework */,
+				D9CE8474257F00822FF78A6E /* Pods_CameraBarcodeReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20258D8E200BA443003FA670 /* CameraBarcodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20258DB7200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReader" */;
+			buildPhases = (
+				A97FAF669A821E93DF1DB3E3 /* [CP] Check Pods Manifest.lock */,
+				20258D8B200BA443003FA670 /* Sources */,
+				20258D8C200BA443003FA670 /* Frameworks */,
+				20258D8D200BA443003FA670 /* Resources */,
+				2FC6BAEB137030208C18528C /* [CP] Embed Pods Frameworks */,
+				50F931A95A06A858F2F8EADD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraBarcodeReader;
+			productName = CameraBarcodeReader;
+			productReference = 20258D8F200BA443003FA670 /* CameraBarcodeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20258DA2200BA443003FA670 /* CameraBarcodeReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20258DBA200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReaderTests" */;
+			buildPhases = (
+				07D810498172D90E32E33CBF /* [CP] Check Pods Manifest.lock */,
+				20258D9F200BA443003FA670 /* Sources */,
+				20258DA0200BA443003FA670 /* Frameworks */,
+				20258DA1200BA443003FA670 /* Resources */,
+				281F55832BCE7B60E6FC9CF8 /* [CP] Embed Pods Frameworks */,
+				475F001B3C87A924549BDA93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20258DA5200BA443003FA670 /* PBXTargetDependency */,
+			);
+			name = CameraBarcodeReaderTests;
+			productName = CameraBarcodeReaderTests;
+			productReference = 20258DA3200BA443003FA670 /* CameraBarcodeReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20258DAD200BA443003FA670 /* CameraBarcodeReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20258DBD200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReaderUITests" */;
+			buildPhases = (
+				AA65060D16DFC21ACDC91637 /* [CP] Check Pods Manifest.lock */,
+				20258DAA200BA443003FA670 /* Sources */,
+				20258DAB200BA443003FA670 /* Frameworks */,
+				20258DAC200BA443003FA670 /* Resources */,
+				C2258C47E9BE76397F435A98 /* [CP] Embed Pods Frameworks */,
+				D1275508B1A1DF7A49F80446 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20258DB0200BA443003FA670 /* PBXTargetDependency */,
+			);
+			name = CameraBarcodeReaderUITests;
+			productName = CameraBarcodeReaderUITests;
+			productReference = 20258DAE200BA443003FA670 /* CameraBarcodeReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20258D87200BA443003FA670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Evan Anger";
+				TargetAttributes = {
+					20258D8E200BA443003FA670 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20258DA2200BA443003FA670 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20258D8E200BA443003FA670;
+					};
+					20258DAD200BA443003FA670 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20258D8E200BA443003FA670;
+					};
+				};
+			};
+			buildConfigurationList = 20258D8A200BA443003FA670 /* Build configuration list for PBXProject "CameraBarcodeReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20258D86200BA443003FA670;
+			productRefGroup = 20258D90200BA443003FA670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20258D8E200BA443003FA670 /* CameraBarcodeReader */,
+				20258DA2200BA443003FA670 /* CameraBarcodeReaderTests */,
+				20258DAD200BA443003FA670 /* CameraBarcodeReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20258D8D200BA443003FA670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20258D9D200BA443003FA670 /* LaunchScreen.storyboard in Resources */,
+				20258D9A200BA443003FA670 /* Assets.xcassets in Resources */,
+				20258D98200BA443003FA670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258DA1200BA443003FA670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258DAC200BA443003FA670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D810498172D90E32E33CBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraBarcodeReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		281F55832BCE7B60E6FC9CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReaderTests/Pods-CameraBarcodeReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FC6BAEB137030208C18528C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		475F001B3C87A924549BDA93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReaderTests/Pods-CameraBarcodeReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F931A95A06A858F2F8EADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReader/Pods-CameraBarcodeReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97FAF669A821E93DF1DB3E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraBarcodeReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA65060D16DFC21ACDC91637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraBarcodeReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2258C47E9BE76397F435A98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReaderUITests/Pods-CameraBarcodeReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1275508B1A1DF7A49F80446 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraBarcodeReaderUITests/Pods-CameraBarcodeReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20258D8B200BA443003FA670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20258D95200BA443003FA670 /* ViewController.swift in Sources */,
+				20258D93200BA443003FA670 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258D9F200BA443003FA670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20258DA8200BA443003FA670 /* CameraBarcodeReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20258DAA200BA443003FA670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20258DB3200BA443003FA670 /* CameraBarcodeReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20258DA5200BA443003FA670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20258D8E200BA443003FA670 /* CameraBarcodeReader */;
+			targetProxy = 20258DA4200BA443003FA670 /* PBXContainerItemProxy */;
+		};
+		20258DB0200BA443003FA670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20258D8E200BA443003FA670 /* CameraBarcodeReader */;
+			targetProxy = 20258DAF200BA443003FA670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20258D96200BA443003FA670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20258D97200BA443003FA670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20258D9B200BA443003FA670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20258D9C200BA443003FA670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20258DB5200BA443003FA670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20258DB6200BA443003FA670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20258DB8200BA443003FA670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81898E7E988D1134D0B141B0 /* Pods-CameraBarcodeReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20258DB9200BA443003FA670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C583DEBDAEBAA56BF928C1 /* Pods-CameraBarcodeReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20258DBB200BA443003FA670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F82D6DBA9BDC05958A180D /* Pods-CameraBarcodeReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraBarcodeReader.app/CameraBarcodeReader";
+			};
+			name = Debug;
+		};
+		20258DBC200BA443003FA670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E905E29F3388E7472A0018 /* Pods-CameraBarcodeReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraBarcodeReader.app/CameraBarcodeReader";
+			};
+			name = Release;
+		};
+		20258DBE200BA443003FA670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73C874C552B934F113D07D7 /* Pods-CameraBarcodeReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraBarcodeReader;
+			};
+			name = Debug;
+		};
+		20258DBF200BA443003FA670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1588D1631CB5F96F049505A0 /* Pods-CameraBarcodeReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7BEAG244J;
+				INFOPLIST_FILE = CameraBarcodeReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mightystrong.CameraBarcodeReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CameraBarcodeReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20258D8A200BA443003FA670 /* Build configuration list for PBXProject "CameraBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20258DB5200BA443003FA670 /* Debug */,
+				20258DB6200BA443003FA670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20258DB7200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20258DB8200BA443003FA670 /* Debug */,
+				20258DB9200BA443003FA670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20258DBA200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20258DBB200BA443003FA670 /* Debug */,
+				20258DBC200BA443003FA670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20258DBD200BA443003FA670 /* Build configuration list for PBXNativeTarget "CameraBarcodeReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20258DBE200BA443003FA670 /* Debug */,
+				20258DBF200BA443003FA670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20258D87200BA443003FA670 /* Project object */;
+}

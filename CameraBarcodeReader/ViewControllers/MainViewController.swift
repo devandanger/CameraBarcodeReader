@@ -7,14 +7,17 @@
 //
 
 import UIKit
-import FontAwesome_swift    
+import FontAwesome_swift
 
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.setNavigationBarHidden(true, animated: false)
-        _ = UIFont.fontAwesome(ofSize: 30)
+        
+        //hack to make sure they all get loaded font-wise
+        //https://github.com/thii/FontAwesome.swift/issues/154
+        _ = UIFont.fontAwesome(ofSize: 10)
     }
 
     override func didReceiveMemoryWarning() {
